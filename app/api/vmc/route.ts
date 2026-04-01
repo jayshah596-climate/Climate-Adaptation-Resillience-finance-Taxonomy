@@ -3,6 +3,8 @@ import path from 'path'
 import fs from 'fs'
 import type { VMCData, BudgetSector, RiskZone, CBRTProject } from '@/app/types'
 
+export const dynamic = 'force-dynamic'
+
 // ── Mock Data ─────────────────────────────────────────────────────────────────
 
 const MOCK_SECTORS: BudgetSector[] = [
